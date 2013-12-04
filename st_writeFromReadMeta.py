@@ -1,10 +1,9 @@
-
 # Stefan Thorsson
 # sthorsson@gmail.com
 
 import os, nuke
 
-def st_writeNodeSuffix(custom):
+def st_writeFromeReadMeta(custom):
     # make sure custom param doesnt connect with values ahead of it
     if custom:
         custom = "_" + custom
